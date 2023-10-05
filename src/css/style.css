@@ -146,14 +146,15 @@
 
 .content-btn {
   display: inline-flex;
-  padding: 17px 29px;
+  padding: 18px 30px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   font-size: 29px;
   background: var(--Black, #1e2832);
   color: var(--White, #fff);
   margin-top: 66px;
+  border: none;
 }
 
 .content-btn:hover {
@@ -222,7 +223,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 90px;
-  margin-left: 20px;
+  margin-left: 17px;
   margin-bottom: 90px;
 }
 
@@ -236,7 +237,7 @@
 .brand-content {
   display: flex;
   align-items: center;
-  margin-left: 20px;
+  margin-left: 18px;
 }
 
 .left-brand-content {
@@ -247,8 +248,7 @@
 }
 
 .left-brand-content p {
-  transform: translateY(-100%) translateX(0) rotate(-90deg);
-  transform-origin: bottom left;
+  transform: translateY(-100.5%) translateX(-65px) rotate(-90deg);
   width: 100%;
   height: 100%;
   color: var(--Dark, #000);
@@ -261,6 +261,7 @@
   line-height: 65px;
   text-transform: uppercase;
   flex-shrink: 0;
+  
 }
 
 .right-brand-content {
@@ -317,7 +318,9 @@
   display: inline-block;
   cursor: pointer;
   text-align: center;
-  line-height: 32px;
+  line-height: 28px;
+  font-family: Open Sans;
+
 }
 
 .sub-menu ul {
@@ -353,6 +356,7 @@
   display: flex;
   align-items: center;
   gap: 4px;
+  margin-right: 3px;
 }
 
 .sub-menu i {
@@ -377,13 +381,106 @@
     align-items: center;
     text-align: center;
     padding: 0 12px;
-    margin-bottom: 24px;
+    margin-bottom: 25px;
     box-sizing: border-box;
 }
 
+/* Sile-clone */
+.sld-btn {
+  padding: 4px 15px!important;
+}
+.owl-theme {
+  margin-left: 3px;
+}
+
+.rb-sld {
+  left: 0px!important;
+}
+.col-4-slide img{
+  margin-bottom: 18px;
+}
+.col-4-slide:last-child {
+}
+.col-4-slide {
+  width: 336px;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ padding-right:24px;
+ margin-bottom: 15px;
+}
+.sub-content .owl-nav button {
+  position: absolute;
+  top: 196px;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%!important;
+  color: #0e0a0a;
+}
+
+.sub-content .owl-nav .owl-prev {
+  left: 26px;
+}
+.sub-content .owl-nav .owl-next {
+  right:14px; ;
+}
+
+.fa-chevron-left,.fa-chevron-right{
+  font-size: 32px;
+}
+
+
+.sub-content .owl-nav .owl-prev:hover,
+.sub-content .owl-nav .owl-next:hover {
+  background-color: #e5e8ec00!important;
+}
+
+.sub-content .owl-nav .owl-prev:hover span,.sub-content .owl-nav .owl-next:hover span{
+  color: black;
+}
+
+/*  */
+
 .sub-menu-card {
   display: flex;
-  margin-bottom: 116px;
+  margin-bottom: 115px;
+}
+.col2 {
+  position: relative;
+}
+.riboon {
+  width: 52px;
+  height: 24px;
+  position:absolute ;
+  left:12px;
+  top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rb-hot {
+  background-color: #ff6f61;
+}
+.rb-sale {
+  background: var(--Black, #1E2832);}
+
+.rb_p {
+  color: var(--White, #FFF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Overline */
+font-family: Open Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
 }
 
 .sub-card-text {
@@ -459,13 +556,14 @@
   line-height: normal;
   text-transform: capitalize;
   text-decoration: line-through;
-  margin-right: 14px;
+  margin-right: 8px;
   text-decoration-color: var(--Dark-50, rgba(0, 0, 0, 0.5));
 }
 
+/* Zara */
 .zara-wrap {
   width: 100%;
-  height: 776px;
+  height: 777px;
   position: relative;
   overflow: hidden;
   background-color: #000;
@@ -475,10 +573,10 @@
   width: 1764.919px;
   height: 1341px;
   position: absolute;
-  top: 52%;
+  top: 51.7%;
   left: calc(50% - 256px);
   transform: translate(-50%, -50%);
-  background-image: url(../src/img/bgn-zẩ1.jpg);
+  background-image: url(../img/bgn-zẩ1.jpg);
   background-size: contain;
 }
 .zara-logo-bg {
@@ -488,7 +586,7 @@
   background-repeat: no-repeat;
   position: absolute;
   right: -85px;
-  top: 55px;
+  top: 54px;
 }
 
 .zara-content {
@@ -506,7 +604,7 @@
 }
 
 .zara-content p {
-  margin-top: 55px;
+  margin-top: 52px;
   color: #fff;
   font-family: Roboto;
   font-size: 26px;
@@ -541,19 +639,20 @@
   height: 754px;
   display: flex;
   justify-content: center;
+  margin-top:  115px;
+  ;
 }
 
 .follow {
   justify-content: center;
-  padding: 100px 300px;
+  padding: 100px 0 100px 300px;
   position: absolute;
-  left: 20px;
+  left: 12px;
 }
 
 .fl-header-h h2 {
   color: var(--Dark, #000);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
 
   /* H2 */
   font-family: Roboto;
@@ -568,12 +667,13 @@
 }
 
 .col-8 {
-  width: calc(100% / 6);
+  width: 200px;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 12px;
+  margin: 0 12px;
   margin-bottom: 65px;
+  box-sizing: border-box;
 }
 
 .row-6 {
@@ -605,7 +705,7 @@
 }
 
 .fl-input-btn {
-  margin-top: 74px;
+  margin-top: 71.4px;
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
@@ -625,7 +725,7 @@
 /* ft */
 footer {
   background-color: white;
-  padding-top: 148px;
+  padding-top: 146px;
 }
 
 .ft {
@@ -646,7 +746,7 @@ footer {
   font-feature-settings: "clig" off, "liga" off;
 
   font-family: Open Sans;
-  font-size: 16px;
+  font-size: 16px;  
   font-style: normal;
   font-weight: 400;
   line-height: 31px;
