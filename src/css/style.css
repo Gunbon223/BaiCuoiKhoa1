@@ -372,12 +372,13 @@
 }
 
 .col-4 {
-  width: calc(100% / 4);
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 0 12px;
-  margin-bottom: 24px;
+     width: 336px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 12px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
 }
 
 .sub-menu-card {
@@ -477,7 +478,7 @@
   top: 52%;
   left: calc(50% - 256px);
   transform: translate(-50%, -50%);
-  background-image: url(/src/img/bgn-zẩ1.jpg);
+  background-image: url(../src/img/bgn-zẩ1.jpg);
   background-size: contain;
 }
 .zara-logo-bg {
